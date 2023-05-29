@@ -1,0 +1,57 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("green-felt.jpeg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+button:hover{
+    background-color: #37409d
+}
+button:active {
+    background-color: #37409d
+}
+
+.container {
+    display: none;
+    justify-content: center;
+  }
+  
+  .box {
+    background-color: white;
+    display: flex;
+    width: 100px;
+    height: 150px;
+    margin: 0 10px; /* Adjust the margin to set the desired space between the boxes */
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    border-radius: 10px;
+  }
